@@ -2,7 +2,7 @@ package Collection;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+//123123424
 public class ArrayListEx1 {
     public static void main(String[] args) {
         ArrayList arrayList1 = new ArrayList();
