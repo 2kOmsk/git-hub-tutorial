@@ -15,7 +15,7 @@ public class ListItertorExmple {
         ListIterator<Character> reverseIterator = list.listIterator(list.size());
         boolean isPalindrome = true;
         while(iterator.hasNext() && reverseIterator.hasPrevious()) {
-            if(iterator.hasNext() != reverseIterator.hasPrevious()) {
+            if(iterator.next() != reverseIterator.previous()) {
                 isPalindrome = false;
                 break;
             }
